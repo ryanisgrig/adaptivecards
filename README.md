@@ -43,6 +43,7 @@ Elements should have the appropriate color assigned based on their data status. 
 ![Schedule](./calendar/schedule.png)
 
 #### [Overview](./calendar/overview.json)
+![Overview](./calendar/overview.png)
 
 ### Email Skill
 
