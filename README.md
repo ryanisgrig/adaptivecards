@@ -50,3 +50,9 @@ Elements should have the appropriate color assigned based on their data status. 
 ### To Do Skill
 
 ### Point of Interest Skill
+
+#### [Details](./pointofinterest/details.json)
+![Details](./pointofinterest/details.png)
+
+#### [Route Details](./pointofinterest/routedetails.json)
+![Route details](pointofinterest/routedetails.png)
