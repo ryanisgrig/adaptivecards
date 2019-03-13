@@ -36,6 +36,12 @@ User avatars should be displayed when possible, and default to a user's initials
 
 ### Calendar Skill
 
+#### [Schedule](./calendar/schedule.json)
+![Schedule](./calendar/schedule.png)
+
+#### [Schedule (Light)](./calendar/schedule.json)
+![Light Schedule](./calendar/light_schedule.png)
+
 ### Email Skill
 
 ### To Do Skill
