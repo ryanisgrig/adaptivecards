@@ -1,0 +1,1 @@
+This repository hosts the Virtual Assistant Adaptive Cards plan.
