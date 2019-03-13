@@ -1,246 +1,291 @@
 {
-  "type": "AdaptiveCard",
-  "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/background.png",
-  "body": [
-    {
-      "type": "Container",
-      "items": [
+    "type": "AdaptiveCard",
+    "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/background.png",
+    "body": [
         {
-          "type": "ColumnSet",
-          "columns": [
-            {
-              "type": "Column",
-              "items": [
+            "type": "Container",
+            "items": [
                 {
-                  "type": "Image",
-                  "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNSAy%0D%0AMy40NCI+PHRpdGxlPnBsYXRmb3Jtc0Fzc2V0IDM0cXVlc2l0b25zPC90aXRsZT48cGF0aCBkPSJN%0D%0ANC42OSwxLjU2VjBINi4yNVYxLjU2aDEyLjVWMGgxLjU2VjEuNTZIMjVWMjMuNDRIMFYxLjU2Wk0y%0D%0AMC4zMSwzLjEzVjQuNjlIMTguNzVWMy4xM0g2LjI1VjQuNjlINC42OVYzLjEzSDEuNTZWNi4yNUgy%0D%0AMy40NFYzLjEzWm0zLjEzLDE4Ljc1VjcuODFIMS41NlYyMS44OFpNNi4yNSwxMC45NEg0LjY5Vjku%0D%0AMzhINi4yNVptMCwzLjEySDQuNjlWMTIuNUg2LjI1Wm0wLDMuMTNINC42OVYxNS42M0g2LjI1Wm00%0D%0ALjY5LTYuMjVIOS4zOFY5LjM4aDEuNTZabTAsMy4xMkg5LjM4VjEyLjVoMS41NlptMCwzLjEzSDku%0D%0AMzhWMTUuNjNoMS41NlptMCwzLjEySDkuMzhWMTguNzVoMS41NlptNC42OC05LjM3SDE0LjA2Vjku%0D%0AMzhoMS41NlptMCwzLjEySDE0LjA2VjEyLjVoMS41NlptMCwzLjEzSDE0LjA2VjE1LjYzaDEuNTZa%0D%0AbTAsMy4xMkgxNC4wNlYxOC43NWgxLjU2Wm00LjY5LTYuMjVIMTguNzVWMTIuNWgxLjU2Wm0wLDMu%0D%0AMTNIMTguNzVWMTUuNjNoMS41NlptMCwzLjEySDE4Ljc1VjE4Ljc1aDEuNTZaIi8+PC9zdmc+",
-                  "size": "Small"
+                    "type": "ColumnSet",
+                    "height": "stretch",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "height": "stretch",
+                            "items": [
+                                {
+                                    "type": "ColumnSet",
+                                    "height": "stretch",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "height": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5z%0D%0APSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNSAyMy40IiBz%0D%0AdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNSAyMy40OyIgeG1sOnNwYWNlPSJwcmVz%0D%0AZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5%0D%0AbGU+Cjx0aXRsZT5wbGF0Zm9ybXNBc3NldCAzNHF1ZXNpdG9uczwvdGl0bGU+CjxwYXRoIGNsYXNz%0D%0APSJzdDAiIGQ9Ik00LjcsMS42VjBoMS42djEuNmgxMi41VjBoMS42djEuNkgyNXYyMS45SDBWMS42%0D%0ASDQuN3ogTTIwLjMsMy4xdjEuNmgtMS42VjMuMUg2LjJ2MS42SDQuN1YzLjFIMS42djMuMWgyMS45%0D%0ACglWMy4xSDIwLjN6IE0yMy40LDIxLjlWNy44SDEuNnYxNC4xTDIzLjQsMjEuOXogTTYuMiwxMC45%0D%0ASDQuN1Y5LjRoMS42VjEwLjl6IE02LjIsMTQuMUg0Ljd2LTEuNmgxLjZWMTQuMXogTTYuMiwxNy4y%0D%0ASDQuN3YtMS42aDEuNgoJVjE3LjJ6IE0xMC45LDEwLjlIOS40VjkuNGgxLjZWMTAuOXogTTEwLjks%0D%0AMTQuMUg5LjR2LTEuNmgxLjZWMTQuMXogTTEwLjksMTcuMkg5LjR2LTEuNmgxLjZWMTcuMnogTTEw%0D%0ALjksMjAuM0g5LjR2LTEuNmgxLjZWMjAuM3oKCSBNMTUuNiwxMC45aC0xLjZWOS40aDEuNlYxMC45%0D%0AeiBNMTUuNiwxNC4xaC0xLjZ2LTEuNmgxLjZWMTQuMXogTTE1LjYsMTcuMmgtMS42di0xLjZoMS42%0D%0AVjE3LjJ6IE0xNS42LDIwLjNoLTEuNnYtMS42aDEuNlYyMC4zegoJIE0yMC4zLDE0LjFoLTEuNnYt%0D%0AMS42aDEuNkwyMC4zLDE0LjF6IE0yMC4zLDE3LjJoLTEuNnYtMS42aDEuNkwyMC4zLDE3LjJ6IE0y%0D%0AMC4zLDIwLjNoLTEuNnYtMS42aDEuNkwyMC4zLDIwLjN6Ii8+Cjwvc3ZnPgo=",
+                                                    "size": "Small"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "height": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "height": "stretch",
+                                                    "size": "ExtraLarge",
+                                                    "weight": "Bolder",
+                                                    "color": "Light",
+                                                    "text": "Your Schedule"
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "ColumnSet",
+                                    "height": "stretch",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "height": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "horizontalAlignment": "Right",
+                                                    "height": "stretch",
+                                                    "size": "Medium",
+                                                    "text": "10"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "horizontalAlignment": "Right",
+                                                    "height": "stretch",
+                                                    "size": "Medium",
+                                                    "text": "4"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "height": "stretch",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "height": "stretch",
+                                                    "size": "Medium",
+                                                    "weight": "Bolder",
+                                                    "color": "Dark",
+                                                    "text": "Events today"
+                                                },
+                                                {
+                                                    "type": "TextBlock",
+                                                    "height": "stretch",
+                                                    "size": "Medium",
+                                                    "weight": "Bolder",
+                                                    "color": "Dark",
+                                                    "text": "Events overlap"
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": 60
+                        },
+                        {
+                            "type": "Column",
+                            "height": "stretch",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "horizontalAlignment": "Center",
+                                    "style": "Person",
+                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/myrcella.jpg",
+                                    "size": "Medium"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "March 13, 2019"
+                                }
+                            ],
+                            "width": 40
+                        }
+                    ]
                 }
-              ],
-              "width": "auto"
-            },
-            {
-              "type": "Column",
-              "verticalContentAlignment": "Center",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "size": "Large",
-                  "weight": "Bolder",
-                  "text": "SCHEDULE"
-                }
-              ],
-              "width": "stretch"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Container",
-      "items": [
+            ]
+        },
         {
-          "type": "Container",
-          "items": [
-            {
-              "type": "ColumnSet",
-              "columns": [
+            "type": "Container",
+            "items": [
                 {
-                  "type": "Column",
-                  "items": [
+                    "type": "ColumnSet",
+                    "separator": true,
+                  "columns": [
                     {
-                      "type": "TextBlock",
-                      "size": "Medium",
-                      "weight": "Bolder",
-                      "text": "January 14, 2019"
+                      "type": "Column",
+                      "horizontalAlignment": "Center",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "Center",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "height": "stretch",
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "7:30"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "Center",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "height": "stretch",
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "8:15"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "Center",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "height": "stretch",
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "9:00"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "Center",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "height": "stretch",
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "10:00"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "horizontalAlignment": "Center",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "height": "stretch",
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "10:00"
+                        }
+                      ],
+                      "width": 20
                     },
                     {
-                      "type": "TextBlock",
-                      "spacing": "Medium",
-                      "size": "Medium",
-                      "weight": "Bolder",
-                      "text": "MONDAY"
+                      "type": "Column",
+                      "spacing": "Small",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "GM Daily Status"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "weight": "Bolder",
+                          "color": "Accent",
+                          "text": "Teams"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "Briefing Lili for BT EBC agenda"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "weight": "Bolder",
+                          "color": "Accent",
+                          "text": "Kitchenette"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Light",
+                          "text": "Lili Staff Meeting"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "weight": "Bolder",
+                          "color": "Accent",
+                          "text": "CITY CENTER 2228"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Warning",
+                          "text": "Weekly Team Meeting"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "weight": "Bolder",
+                          "color": "Accent",
+                          "text": "Kitchenette"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "Medium",
+                          "separator": true,
+                          "size": "Medium",
+                          "weight": "Bolder",
+                          "color": "Warning",
+                          "text": "Monthly Telefonica Review"
+                        },
+                        {
+                          "type": "TextBlock",
+                          "spacing": "None",
+                          "weight": "Bolder",
+                          "color": "Accent",
+                          "text": "Kitchenette"
+                        }
+                      ],
+                      "width": 80
                     }
-                  ],
-                  "width": "stretch"
-                },
-                {
-                  "type": "Column",
-                  "items": [
-                    {
-                      "type": "TextBlock",
-                      "horizontalAlignment": "Right",
-                      "size": "Medium",
-                      "weight": "Bolder",
-                      "text": "14 Events today"
-                    },
-                    {
-                      "type": "TextBlock",
-                      "horizontalAlignment": "Right",
-                      "spacing": "Medium",
-                      "weight": "Bolder",
-                      "color": "Attention",
-                      "text": "4 Events overlap"
-                    }
-                  ],
-                  "width": "stretch"
+                  ]
                 }
-              ]
-            }
-          ]
+            ]
         }
-      ]
-    },
-    {
-      "type": "Container",
-      "items": [
-        {
-          "type": "ColumnSet",
-          "separator": true,
-          "columns": [
-            {
-              "type": "Column",
-              "horizontalAlignment": "Right",
-              "style": "emphasis",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "horizontalAlignment": "Right",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "height": "stretch",
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "7:30"
-                },
-                {
-                  "type": "TextBlock",
-                  "horizontalAlignment": "Right",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "height": "stretch",
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "8:15"
-                },
-                {
-                  "type": "TextBlock",
-                  "horizontalAlignment": "Right",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "height": "stretch",
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "9:00"
-                },
-                {
-                  "type": "TextBlock",
-                  "horizontalAlignment": "Right",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "height": "stretch",
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "10:00"
-                },
-                {
-                  "type": "TextBlock",
-                  "horizontalAlignment": "Right",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "height": "stretch",
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "10:00"
-                }
-              ],
-              "width": 20
-            },
-            {
-              "type": "Column",
-              "spacing": "Small",
-              "style": "emphasis",
-              "items": [
-                {
-                  "type": "TextBlock",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "GM Daily Status"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "None",
-                  "color": "Light",
-                  "text": "Teams"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "Briefing Lili for BT EBC agenda"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "None",
-                  "color": "Light",
-                  "text": "Kitchenette"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "text": "Lili Staff Meeting"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "None",
-                  "color": "Light",
-                  "text": "CITY CENTER 2228"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "color": "Attention",
-                  "text": "Weekly Team Meeting"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "None",
-                  "color": "Light",
-                  "text": "Kitchenette"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "Medium",
-                  "separator": true,
-                  "size": "Medium",
-                  "weight": "Bolder",
-                  "color": "Attention",
-                  "text": "Monthly Telefonica Review"
-                },
-                {
-                  "type": "TextBlock",
-                  "spacing": "None",
-                  "color": "Light",
-                  "text": "Kitchenette"
-                }
-              ],
-              "width": 80
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-  "version": "1.0"
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
 }
