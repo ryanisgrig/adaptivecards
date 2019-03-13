@@ -1,6 +1,7 @@
 {
     "type": "AdaptiveCard",
-    "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/background.png",
+    "height": "stretch",
+    "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/calendar/assets/background.png",
     "body": [
         {
             "type": "Container",
@@ -59,6 +60,7 @@
                                                     "horizontalAlignment": "Right",
                                                     "height": "stretch",
                                                     "size": "Medium",
+                                                    "color": "Light",
                                                     "text": "10"
                                                 },
                                                 {
@@ -66,6 +68,7 @@
                                                     "horizontalAlignment": "Right",
                                                     "height": "stretch",
                                                     "size": "Medium",
+                                                    "color": "Light",
                                                     "text": "4"
                                                 }
                                             ],
@@ -80,7 +83,7 @@
                                                     "height": "stretch",
                                                     "size": "Medium",
                                                     "weight": "Bolder",
-                                                    "color": "Dark",
+                                                    "color": "Light",
                                                     "text": "Events today"
                                                 },
                                                 {
@@ -88,7 +91,7 @@
                                                     "height": "stretch",
                                                     "size": "Medium",
                                                     "weight": "Bolder",
-                                                    "color": "Dark",
+                                                    "color": "Light",
                                                     "text": "Events overlap"
                                                 }
                                             ],
@@ -131,157 +134,157 @@
                 {
                     "type": "ColumnSet",
                     "separator": true,
-                  "columns": [
-                    {
-                      "type": "Column",
-                      "horizontalAlignment": "Center",
-                      "items": [
+                    "columns": [
                         {
-                          "type": "TextBlock",
-                          "horizontalAlignment": "Center",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "height": "stretch",
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "7:30"
+                            "type": "Column",
+                            "horizontalAlignment": "Center",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "height": "stretch",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "7:30"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "height": "stretch",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "8:15"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "height": "stretch",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "9:00"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "height": "stretch",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "10:00"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "horizontalAlignment": "Center",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "height": "stretch",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "10:00"
+                                }
+                            ],
+                            "width": 20
                         },
                         {
-                          "type": "TextBlock",
-                          "horizontalAlignment": "Center",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "height": "stretch",
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "8:15"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "horizontalAlignment": "Center",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "height": "stretch",
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "9:00"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "horizontalAlignment": "Center",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "height": "stretch",
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "10:00"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "horizontalAlignment": "Center",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "height": "stretch",
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "10:00"
+                            "type": "Column",
+                            "spacing": "Small",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "GM Daily Status"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "text": "Teams"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "Briefing Lili for BT EBC agenda"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "text": "Kitchenette"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Light",
+                                    "text": "Lili Staff Meeting"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "text": "CITY CENTER 2228"
+                                },
+                              {
+                                "type": "TextBlock",
+                                "spacing": "Medium",
+                                "separator": true,
+                                "size": "Medium",
+                                "weight": "Bolder",
+                                "color": "Warning",
+                                "text": "Weekly Team Meeting"
+                              },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "text": "Kitchenette"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "Medium",
+                                    "separator": true,
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Warning",
+                                    "text": "Monthly Telefonica Review"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "spacing": "None",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
+                                    "text": "Kitchenette"
+                                }
+                            ],
+                            "width": 80
                         }
-                      ],
-                      "width": 20
-                    },
-                    {
-                      "type": "Column",
-                      "spacing": "Small",
-                      "items": [
-                        {
-                          "type": "TextBlock",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "GM Daily Status"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "None",
-                          "weight": "Bolder",
-                          "color": "Accent",
-                          "text": "Teams"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "Briefing Lili for BT EBC agenda"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "None",
-                          "weight": "Bolder",
-                          "color": "Accent",
-                          "text": "Kitchenette"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Light",
-                          "text": "Lili Staff Meeting"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "None",
-                          "weight": "Bolder",
-                          "color": "Accent",
-                          "text": "CITY CENTER 2228"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Warning",
-                          "text": "Weekly Team Meeting"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "None",
-                          "weight": "Bolder",
-                          "color": "Accent",
-                          "text": "Kitchenette"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "Medium",
-                          "separator": true,
-                          "size": "Medium",
-                          "weight": "Bolder",
-                          "color": "Warning",
-                          "text": "Monthly Telefonica Review"
-                        },
-                        {
-                          "type": "TextBlock",
-                          "spacing": "None",
-                          "weight": "Bolder",
-                          "color": "Accent",
-                          "text": "Kitchenette"
-                        }
-                      ],
-                      "width": 80
-                    }
-                  ]
+                    ]
                 }
             ]
         }
