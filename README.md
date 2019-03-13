@@ -23,7 +23,7 @@
 Every Skill will require a unique icon to identify itself.
 
 ### Header
-Every card will have a header identifying itself with a Skill icon.
+Every card will have a header identifying itself with a Skill icon. Since the current version of Adaptive Cards only supports a single background image, those images should account for the header space to remain unchanged.
 
 ### Users
 User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
@@ -46,6 +46,9 @@ Elements should have the appropriate color assigned based on their data status. 
 ![Overview](./calendar/overview.png)
 
 ### Email Skill
+
+#### [Overview](./email/overview.json)
+![Overview](./email/overview.png)
 
 ### To Do Skill
 
