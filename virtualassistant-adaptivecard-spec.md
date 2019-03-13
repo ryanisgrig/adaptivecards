@@ -22,6 +22,9 @@
 ### Icons
 Every Skill will require a unique icon to identify itself.
 
+### Header
+Every card will have a header identifying itself with a Skill icon.
+
 ### Users
 User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
 
@@ -29,7 +32,7 @@ User avatars should be displayed when possible, and default to a user's initials
 
 ### Virtual Assistant
 
-![Introduction](./media/assistant_introduction.png)
+![Introduction](./assets/introduction.png)
 
 ### Calendar Skill
 
