@@ -28,6 +28,9 @@ Every card will have a header identifying itself with a Skill icon.
 ### Users
 User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
 
+### Text
+Elements should have the appropriate color assigned based on their data status. For example, conflicting calendar appointments should be use the alert or warning color.
+
 ## Cards
 
 ### Virtual Assistant
@@ -38,6 +41,8 @@ User avatars should be displayed when possible, and default to a user's initials
 
 #### [Schedule](./calendar/schedule.json)
 ![Schedule](./calendar/schedule.png)
+
+#### [Overview](./calendar/overview.json)
 
 ### Email Skill
 
