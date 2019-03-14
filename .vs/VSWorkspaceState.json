@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\calendar\\assets",
+    "\\email\\assets",
+    "\\pointofinterest\\assets",
+    "\\todo",
+    "\\virtualassistant"
   ],
-  "SelectedNode": "\\virtualassistant-adaptivecard-spec.md",
+  "SelectedNode": "\\todo\\show.json",
   "PreviewInSolutionExplorer": false
 }
