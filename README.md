@@ -28,20 +28,22 @@ Every card will have a header identifying itself with a Skill icon. Since the cu
 The preferred solution would be to assign background images to individual containers.
 
 ### Users
-User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
+User avatars should be displayed when possible, and default to a user's initials if one is unavailable (use same API as web chat).
 
 |User Avatar|Initials Avatar|
 |-|-|
-|![User Avatar](assets/user_avatar.png)|![Initials Avatar](assets/initials_avatar.png)|
+|![User Avatar](assets/user_avatar.png)|![Initials Avatar](./assets/initials_avatar.png)|
 ### Text
 Elements should have the appropriate color assigned based on their data status. For example, conflicting calendar appointments should use the alert or warning color.
 
 ## Cards
 
 ### Virtual Assistant
-#### Introduction
+#### [Introduction to a new user](./virtualassistant/newuserintroduction.json)
+![Newuserintroduction](./virtualassistant/newuserintroduction.png)
 
-![Introduction](./assets/introduction.png)
+#### Introduction to a returning user
+![New user introduction](./virtualassistant/assets/introduction.png)
 
 ### Calendar Skill
 
@@ -64,6 +66,8 @@ Elements should have the appropriate color assigned based on their data status. 
 
 #### [Message](./email/message.json)
 ![Message](email/message.png)
+
+* Using maximum 5 lines to display email message
 
 ### To Do Skill
 #### [Show To Do](./todo/show.json)
