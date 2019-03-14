@@ -43,7 +43,8 @@ Elements should have the appropriate color assigned based on their data status. 
 #### [Schedule](./calendar/schedule.json)
 ![Schedule](./calendar/schedule.png)
 
-* Event data is split into 2 text blocks in individual columns, which may
+* Event data is split into 2 text blocks in individual columns. These may be able to be better organized to ease generation by code.
+* Default alert/warning/accent (orange/red/blue) colors do not show up well on dark blue background.
 
 #### [Overview](./calendar/overview.json)
 ![Overview](./calendar/overview.png)
@@ -54,6 +55,7 @@ Elements should have the appropriate color assigned based on their data status. 
 ![Overview](./email/overview.png)
 
 * Emails grouped by user are separated into repeating containers.
+* Default alert/warning (orange/red) colors do not show up well on dark blue background.
 
 #### [Message](./email/message.json)
 ![Message](email/message.png)
@@ -61,6 +63,8 @@ Elements should have the appropriate color assigned based on their data status. 
 ### To Do Skill
 #### [Show To Do](./todo/show.json)
 ![Show](./todo/show.png)
+
+* Tasks are separated into repeating containers.
 
 ### Point of Interest Skill
 
