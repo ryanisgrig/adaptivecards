@@ -16,6 +16,7 @@
 * Developers can unpack a zipped file of image assets and an Adaptive Card host JSON.
 * Image assets should maintain consistent names between design packs to enable easy asset replacement.
 * When deployed with a Virtual Assistant, assets from individual skills should surface up to the root web app.
+* Developers should be able to easily deploy new asset packs into an existing Virtual Assistant & Skills.
 
 ## Common Elements
 
@@ -24,10 +25,14 @@ Every Skill will require a unique icon to identify itself.
 
 ### Header
 Every card will have a header identifying itself with a Skill icon. Since the current version of Adaptive Cards only supports a single background image, those images should account for the header space to remain unchanged.
+The preferred solution would be to assign background images to individual containers.
 
 ### Users
 User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
 
+|User Avatar|Initials Avatar|
+|-|-|
+|![User Avatar](assets/user_avatar.png)|![Initials Avatar](assets/initials_avatar.png)|
 ### Text
 Elements should have the appropriate color assigned based on their data status. For example, conflicting calendar appointments should use the alert or warning color.
 
