@@ -29,11 +29,12 @@ Every card will have a header identifying itself with a Skill icon. Since the cu
 User avatars should be displayed when possible, and default to a user's initials if one is unavailable.
 
 ### Text
-Elements should have the appropriate color assigned based on their data status. For example, conflicting calendar appointments should be use the alert or warning color.
+Elements should have the appropriate color assigned based on their data status. For example, conflicting calendar appointments should use the alert or warning color.
 
 ## Cards
 
 ### Virtual Assistant
+#### Introduction
 
 ![Introduction](./assets/introduction.png)
 
@@ -41,6 +42,8 @@ Elements should have the appropriate color assigned based on their data status. 
 
 #### [Schedule](./calendar/schedule.json)
 ![Schedule](./calendar/schedule.png)
+
+* Event data is split into 2 text blocks in individual columns, which may
 
 #### [Overview](./calendar/overview.json)
 ![Overview](./calendar/overview.png)
