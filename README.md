@@ -53,6 +53,9 @@ Elements should have the appropriate color assigned based on their data status. 
 #### [Overview](./email/overview.json)
 ![Overview](./email/overview.png)
 
+#### [Message](./email/message.json)
+![Message](email/message.png)
+
 ### To Do Skill
 
 ### Point of Interest Skill
