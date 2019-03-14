@@ -9,7 +9,7 @@
 ### Design
 
 * The default **Fabric** theme uses UI elements that match the out-of-the-box Web Chat and Adaptive Card design.
-* Additional themes will be provided maintaining the same layout, but different image assets and an Adaptive Card host config JSON (to be used in a custom Web Chat) will be used.
+* Additional themes will be provided maintaining the same layout, but different image assets and an Adaptive Card host config JSON (to be used in a custom Web Chat) will be used. If necessary, they will include card JSONs for alternative text properties to render well on the background.
 * Cards will be used as supplemental UX to speech and text scenarios. They should avoid interactive UI elements as this requires additional data processing that may not have cross-channel coverage.
 
 ### Development
@@ -53,10 +53,14 @@ Elements should have the appropriate color assigned based on their data status. 
 #### [Overview](./email/overview.json)
 ![Overview](./email/overview.png)
 
+* Emails grouped by user are separated into repeating containers.
+
 #### [Message](./email/message.json)
 ![Message](email/message.png)
 
 ### To Do Skill
+#### [Show To Do](./todo/show.json)
+![Show](./todo/show.png)
 
 ### Point of Interest Skill
 
