@@ -40,10 +40,15 @@ Elements should have the appropriate color assigned based on their data status. 
 
 ### Virtual Assistant
 #### [Introduction to a new user](./virtualassistant/newuserintroduction.json)
-![Newuserintroduction](./virtualassistant/newuserintroduction.png)
+![New user introduction](./virtualassistant/newuserintroduction.png)
 
-#### Introduction to a returning user
-![New user introduction](./virtualassistant/assets/introduction.png)
+#### [Introduction to a returning user](./virtualassistant/returninguserintroduction.json)
+![Returning user introduction](./virtualassistant/returninguserintroduction.png)
+
+* We should show a different introduction card than what is used for new users.
+    * Now that the onboarding dialog is disabled by default, there is no way to discern the difference to the user.
+* Use repeating columnset row of 4 columns for registered skills (max 8 or 12?)
+* Each Skill column has an ImBack submit action to trigger it with a sample query.
 
 ### Calendar Skill
 
@@ -65,7 +70,7 @@ Elements should have the appropriate color assigned based on their data status. 
 * Default alert/warning (orange/red) colors do not show up well on dark blue background.
 
 #### [Message](./email/message.json)
-![Message](email/message.png)
+![Message](./email/message.png)
 
 * Using maximum 5 lines to display email message
 
@@ -81,4 +86,4 @@ Elements should have the appropriate color assigned based on their data status. 
 ![Details](./pointofinterest/details.png)
 
 #### [Route Details](./pointofinterest/routedetails.json)
-![Route details](pointofinterest/routedetails.png)
+![Route details](./pointofinterest/routedetails.png)
