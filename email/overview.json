@@ -88,7 +88,6 @@
                                                 },
                                                 {
                                                     "type": "TextBlock",
-                                                    "height": "stretch",
                                                     "size": "Medium",
                                                     "weight": "Bolder",
                                                     "color": "Light",
@@ -153,20 +152,20 @@
                         },
                         {
                             "type": "Column",
+                            "style": "emphasis",
                             "verticalContentAlignment": "Center",
                             "items": [
-                              {
-                                "type": "TextBlock",
-                                "size": "Medium",
-                                "weight": "Bolder",
-                                "color": "Light",
-                                "text": "5 · Myrcella Baratheon"
-                              },
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Warning",
+                                    "text": "5 · Myrcella Baratheon"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "size": "Medium",
+                                    "weight": "Bolder",
+                                    "color": "Accent",
                                     "text": "SDK launch, Meeting, Retreat, Lunch, Design review, Confirm deadline"
                                 }
                             ],
@@ -202,20 +201,20 @@
                         },
                         {
                             "type": "Column",
+                            "style": "emphasis",
                             "verticalContentAlignment": "Center",
                             "items": [
+                              {
+                                "type": "TextBlock",
+                                "size": "Medium",
+                                "weight": "Bolder",
+                                "text": "4 · Robb Stark"
+                              },
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Light",
-                                    "text": "4 · Robb Stark"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Warning",
+                                    "color": "Accent",
                                     "text": "Wedding Plans, Meetup, Engineering Sync, 1 on 1"
                                 }
                             ],
@@ -251,20 +250,20 @@
                         },
                         {
                             "type": "Column",
+                            "style": "emphasis",
                             "verticalContentAlignment": "Center",
                             "items": [
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Light",
                                     "text": "2 · Margaery Tyrell"
                                 },
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Warning",
+                                    "color": "Accent",
                                     "text": "Conference, UI changes"
                                 }
                             ],
@@ -300,20 +299,20 @@
                         },
                         {
                             "type": "Column",
+                            "style": "emphasis",
                             "verticalContentAlignment": "Center",
                             "items": [
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Light",
                                     "text": "1 · Sandor Clegane"
                                 },
                                 {
                                     "type": "TextBlock",
                                     "size": "Medium",
                                     "weight": "Bolder",
-                                    "color": "Warning",
+                                    "color": "Accent",
                                     "text": "1 on 1"
                                 }
                             ],

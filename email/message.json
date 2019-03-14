@@ -1,7 +1,7 @@
 {
   "type": "AdaptiveCard",
   "id": "EmailCard",
-  "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/email/assets/message_background.png",
+  "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/email/assets/header.png",
   "body": [
     {
       "type": "Container",
