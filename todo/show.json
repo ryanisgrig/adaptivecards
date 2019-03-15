@@ -1,182 +1,183 @@
 {
-    "type": "AdaptiveCard",
-    "id": "EmailCard",
-    "height": "stretch",
-    "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/todo/assets/background.png",
-    "body": [
+  "type": "AdaptiveCard",
+  "id": "EmailCard",
+  "height": "stretch",
+  "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/todo/assets/background.png",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
         {
-            "type": "Container",
-            "items": [
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
                 {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5z%0D%0APSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNS40IDE5LjMi%0D%0AIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1LjQgMTkuMzsiIHhtbDpzcGFjZT0i%0D%0AcHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8%0D%0AL3N0eWxlPgo8dGl0bGU+cGxhdGZvcm1zQXNzZXQgMzZxdWVzaXRvbnM8L3RpdGxlPgo8cGF0aCBj%0D%0AbGFzcz0ic3QwIiBkPSJNMi4yLDIuNkw0LjgsMGwxLjEsMS4xTDIuMiw0LjlMMCwyLjdsMS4xLTEu%0D%0AMUwyLjIsMi42eiBNMi4yLDcuNGwyLjYtMi42bDEuMSwxLjFMMi4yLDkuN0wwLDcuNWwxLjEtMS4x%0D%0ACglMMi4yLDcuNHogTTIuMiwxMi4ybDIuNi0yLjZsMS4xLDEuMWwtMy44LDMuOEwwLDEyLjNsMS4x%0D%0ALTEuMUwyLjIsMTIuMnogTTIuMiwxN2wyLjYtMi42bDEuMSwxLjFsLTMuOCwzLjhMMCwxNy4xTDEu%0D%0AMSwxNkwyLjIsMTd6CgkgTTcuOCwxLjZoMTcuNnYxLjZINy44VjEuNnogTTcuOCw4VjYuNGgxNy42%0D%0AVjhMNy44LDh6IE03LjgsMTIuOHYtMS42aDE3LjZ2MS42SDcuOHogTTcuOCwxNy41VjE2aDE3LjZ2%0D%0AMS42TDcuOCwxNy41eiIvPgo8L3N2Zz4K",
-                                    "size": "Small"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "size": "ExtraLarge",
-                                    "weight": "Bolder",
-                                    "color": "Light",
-                                    "text": "Your tasks"
-                                }
-                            ],
-                            "width": "stretch"
-                        }
-                    ]
+                  "type": "Image",
+                  "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5z%0D%0APSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAyNS40IDE5LjMi%0D%0AIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI1LjQgMTkuMzsiIHhtbDpzcGFjZT0i%0D%0AcHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsOiNGRkZGRkY7fQo8%0D%0AL3N0eWxlPgo8dGl0bGU+cGxhdGZvcm1zQXNzZXQgMzZxdWVzaXRvbnM8L3RpdGxlPgo8cGF0aCBj%0D%0AbGFzcz0ic3QwIiBkPSJNMi4yLDIuNkw0LjgsMGwxLjEsMS4xTDIuMiw0LjlMMCwyLjdsMS4xLTEu%0D%0AMUwyLjIsMi42eiBNMi4yLDcuNGwyLjYtMi42bDEuMSwxLjFMMi4yLDkuN0wwLDcuNWwxLjEtMS4x%0D%0ACglMMi4yLDcuNHogTTIuMiwxMi4ybDIuNi0yLjZsMS4xLDEuMWwtMy44LDMuOEwwLDEyLjNsMS4x%0D%0ALTEuMUwyLjIsMTIuMnogTTIuMiwxN2wyLjYtMi42bDEuMSwxLjFsLTMuOCwzLjhMMCwxNy4xTDEu%0D%0AMSwxNkwyLjIsMTd6CgkgTTcuOCwxLjZoMTcuNnYxLjZINy44VjEuNnogTTcuOCw4VjYuNGgxNy42%0D%0AVjhMNy44LDh6IE03LjgsMTIuOHYtMS42aDE3LjZ2MS42SDcuOHogTTcuOCwxNy41VjE2aDE3LjZ2%0D%0AMS42TDcuOCwxNy41eiIvPgo8L3N2Zz4K",
+                  "size": "Small",
+                  "height": "40px"
                 }
-            ]
-        },
-        {
-            "type": "Container",
-            "items": [
+              ],
+              "width": "auto"
+            },
+            {
+              "type": "Column",
+              "items": [
                 {
-                    "type": "TextBlock",
-                    "size": "Large",
-                    "weight": "Bolder",
-                    "color": "Light",
-                    "text": "You have 4 tasks on your to do list.",
-                    "maxLines": 1
+                  "type": "TextBlock",
+                  "size": "ExtraLarge",
+                  "weight": "Bolder",
+                  "color": "Light",
+                  "text": "Your tasks"
                 }
-            ]
-        },
-        {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "color": "Light",
-                                    "text": "get cat food"
-                                }
-                            ],
-                            "width": "auto"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "color": "Light",
-                                    "text": "pickup milk"
-                                }
-                            ],
-                            "width": "auto"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                      {
-                        "type": "Column",
-                        "items": [
-                          {
-                            "type": "Image",
-                            "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
-                          }
-                        ],
-                        "width": "auto"
-                      },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "color": "Light",
-                                    "text": "build a new skill"
-                                }
-                            ],
-                            "width": "auto"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "color": "Light",
-                                    "text": "pick up wine"
-                                }
-                            ],
-                            "width": "auto"
-                        }
-                    ]
-                }
-            ]
+              ],
+              "width": "stretch"
+            }
+          ]
         }
-    ],
-    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.0",
-    "speak": "from Henrietta Mueller recieved Feb 10 at 3:10 PM titled Project update?"
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "size": "Large",
+          "weight": "Bolder",
+          "color": "Light",
+          "text": "You have 4 tasks on your to do list.",
+          "maxLines": 1
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                }
+              ],
+              "width": "auto"
+            },
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "color": "Light",
+                  "text": "get cat food"
+                }
+              ],
+              "width": "auto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                }
+              ],
+              "width": "auto"
+            },
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "color": "Light",
+                  "text": "pickup milk"
+                }
+              ],
+              "width": "auto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                }
+              ],
+              "width": "auto"
+            },
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "color": "Light",
+                  "text": "build a new skill"
+                }
+              ],
+              "width": "auto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                }
+              ],
+              "width": "auto"
+            },
+            {
+              "type": "Column",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "color": "Light",
+                  "text": "pick up wine"
+                }
+              ],
+              "width": "auto"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.0",
+  "speak": "from Henrietta Mueller recieved Feb 10 at 3:10 PM titled Project update?"
 }
