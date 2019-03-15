@@ -17,7 +17,7 @@
 * Image assets should maintain consistent names between design packs to enable easy asset replacement.
 * When deployed with a Virtual Assistant, assets from individual skills should surface up to the root web app.
 * Developers should be able to easily deploy new asset packs into an existing Virtual Assistant & Skills.
-
+    * Card resources should be in a standard location for Skills.
 ## Common Elements
 
 ### Icons
@@ -25,10 +25,10 @@ Every Skill will require a unique icon to identify itself.
 
 ### Header
 Every card will have a header identifying itself with a Skill icon. Since the current version of Adaptive Cards only supports a single background image, those images should account for the header space to remain unchanged.
-The preferred solution would be to assign background images to individual containers.
+The preferred solution would be to assign background images to individual containers, this is on the [Adaptive Cards 1.2 *tentative* feature list](https://github.com/Microsoft/AdaptiveCards/issues/2444).
 
 ### Users
-User avatars should be displayed when possible, and default to a user's initials if one is unavailable (use same API as web chat).
+User avatars should be displayed when possible, and default to a user's initials if one is unavailable (see [UI Avatars](https://ui-avatars.com/) for a sample solution).
 
 |User Avatar|Initials Avatar|
 |-|-|
