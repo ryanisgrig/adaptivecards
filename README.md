@@ -67,7 +67,6 @@ Elements should have the appropriate color assigned based on their data status. 
 ![Overview](./email/overview.png)
 
 * Emails grouped by user are separated into repeating containers.
-* Default alert/warning (orange/red) colors do not show up well on dark blue background.
 
 #### [Message](./email/message.json)
 ![Message](./email/message.png)
