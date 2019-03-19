@@ -2,7 +2,7 @@
     "type": "AdaptiveCard",
     "id": "EmailCard",
     "height": "stretch",
-    "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/email/assets/header.png",
+    "backgroundImage": "https://github.com/ryanlengel/adaptivecards/blob/master/email/assets/background.png?raw=true",
     "body": [
         {
             "type": "Container",
@@ -43,14 +43,6 @@
             "type": "Container",
             "items": [
                 {
-                    "type": "TextBlock",
-                    "size": "Large",
-                    "weight": "Bolder",
-                    "color": "Light",
-                    "text": "Project update?",
-                    "maxLines": 1
-                },
-                {
                     "type": "ColumnSet",
                     "columns": [
                         {
@@ -71,19 +63,42 @@
                             "items": [
                                 {
                                     "type": "TextBlock",
-                                    "size": "Medium",
+                                    "size": "Large",
                                     "weight": "Bolder",
                                     "color": "Light",
-                                    "text": "Khal Drogo"
+                                    "text": "Project update?",
+                                    "maxLines": 1
                                 },
                                 {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "color": "Light",
-                                    "text": "*Feb 10 at 3:10 PM*"
+                                    "type": "ColumnSet",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "weight": "Bolder",
+                                                    "color": "Light",
+                                                    "text": "Khal Drogo"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "color": "Light",
+                                                    "text": "*February 10 at 3:10 PM*"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        }
+                                    ]
                                 }
                             ],
-                            "width": "auto"
+                            "width": "stretch"
                         }
                     ]
                 }
@@ -92,22 +107,22 @@
         {
             "type": "Container",
             "items": [
-              {
-                "type": "TextBlock",
-                "color": "Light",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique nunc tellus, in tempus mi placerat lobortis. Proin volutpat elit et leo pretium sollicitudin. Aliquam pellentesque interdum augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec congue feugiat dapibus. Maecenas fringilla pulvinar lorem, sed tempus massa ultrices sit amet. Cras tincidunt mi nibh, vitae laoreet mauris varius ut. Suspendisse fermentum neque ut consectetur interdum. Sed consequat lacus ultricies risus fermentum, at cursus tellus ornare. Fusce non euismod mauris, nec dictum mi. Proin iaculis, arcu rhoncus suscipit eleifend, lacus nibh congue purus, at malesuada lectus libero nec mauris. Sed laoreet pharetra aliquet. Cras pretium nisi quis varius imperdiet. Pellentesque aliquet sagittis ultrices.\n\nDonec dignissim arcu id nisi fermentum, vel lacinia nibh commodo. Nulla quam nisl, bibendum et ultrices non, consequat sit amet arcu. Pellentesque vulputate semper convallis. Mauris facilisis iaculis felis, nec placerat magna semper eget. Nam rutrum placerat magna ac scelerisque. Duis non molestie turpis. Duis vehicula tortor velit, non tincidunt nulla facilisis id. Nullam et suscipit dolor, ac ullamcorper nulla.",
-                "wrap": true,
-                "maxLines": 5
-              }
+                {
+                    "type": "TextBlock",
+                    "color": "Dark",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique nunc tellus, in tempus mi placerat lobortis. Proin volutpat elit et leo pretium sollicitudin. Aliquam pellentesque interdum augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec congue feugiat dapibus. Maecenas fringilla pulvinar lorem, sed tempus massa ultrices sit amet. Cras tincidunt mi nibh, vitae laoreet mauris varius ut. Suspendisse fermentum neque ut consectetur interdum. Sed consequat lacus ultricies risus fermentum, at cursus tellus ornare. Fusce non euismod mauris, nec dictum mi. Proin iaculis, arcu rhoncus suscipit eleifend, lacus nibh congue purus, at malesuada lectus libero nec mauris. Sed laoreet pharetra aliquet. Cras pretium nisi quis varius imperdiet. Pellentesque aliquet sagittis ultrices.\n\nDonec dignissim arcu id nisi fermentum, vel lacinia nibh commodo. Nulla quam nisl, bibendum et ultrices non, consequat sit amet arcu. Pellentesque vulputate semper convallis. Mauris facilisis iaculis felis, nec placerat magna semper eget. Nam rutrum placerat magna ac scelerisque. Duis non molestie turpis. Duis vehicula tortor velit, non tincidunt nulla facilisis id. Nullam et suscipit dolor, ac ullamcorper nulla.",
+                    "wrap": true,
+                    "maxLines": 5
+                }
             ]
         }
     ],
     "actions": [
-        {
-            "type": "Action.OpenUrl",
-            "title": "View",
-            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGEwMDg4MTVlLTVjYzUtNGRmNS1hYTJkLTI3NjNmM2Q3MDA3ZABGAAAAAABw%2FWbciOIvSZejmvtHK98CBwCa0ISfUgx1RYIZgSZZYh9LAAAAAAEMAACa0ISfUgx1RYIZgSZZYh9LAAAAtDQrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
-        }
+      {
+        "type": "Action.OpenUrl",
+        "title": "View",
+        "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGEwMDg4MTVlLTVjYzUtNGRmNS1hYTJkLTI3NjNmM2Q3MDA3ZABGAAAAAABw%2FWbciOIvSZejmvtHK98CBwCa0ISfUgx1RYIZgSZZYh9LAAAAAAEMAACa0ISfUgx1RYIZgSZZYh9LAAAAtDQrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+      }
     ],
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.0",

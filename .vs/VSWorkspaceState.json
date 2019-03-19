@@ -2,12 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\assets",
+    "\\calendar",
     "\\calendar\\assets",
-    "\\email\\assets",
-    "\\pointofinterest\\assets",
+    "\\email",
+    "\\pointofinterest",
     "\\todo",
-    "\\virtualassistant"
+    "\\virtualassistant\\assets"
   ],
-  "SelectedNode": "\\todo\\show.json",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

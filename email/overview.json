@@ -129,7 +129,7 @@
         },
         {
             "type": "Container",
-            "spacing":"large",
+            "spacing": "Large",
             "items": [
                 {
                     "type": "Container",
@@ -162,14 +162,13 @@
                                             "type": "TextBlock",
                                             "size": "Medium",
                                             "weight": "Bolder",
-                                            "text": "5 � Myrcella Baratheon"
+                                            "text": "SDK Launch"
                                         },
                                         {
                                             "type": "TextBlock",
                                             "size": "Medium",
-                                            "weight": "Bolder",
                                             "color": "Accent",
-                                            "text": "SDK launch, Meeting, Retreat, Lunch, Design review, Confirm deadline"
+                                            "text": "*Feb 10 at 3:10 PM*"
                                         }
                                     ],
                                     "width": 75
@@ -179,149 +178,146 @@
                     ]
                 },
                 {
-            "type": "Container",
-            "separator": true,
-            "items": [
-                {
-                    "type": "ColumnSet",
+                    "type": "Container",
                     "separator": true,
-                    "height": "stretch",
-                    "columns": [
+                    "items": [
                         {
-                            "type": "Column",
+                            "type": "ColumnSet",
+                            "separator": true,
                             "height": "stretch",
-                            "items": [
+                            "columns": [
                                 {
-                                    "type": "Image",
-                                    "horizontalAlignment": "Center",
+                                    "type": "Column",
                                     "height": "stretch",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg",
-                                    "size": "Medium"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "verticalContentAlignment": "Center",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "text": "4 � Robb Stark"
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "style": "Person",
+                                            "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "width": "auto"
                                 },
                                 {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Accent",
-                                    "text": "Wedding Plans, Meetup, Engineering Sync, 1 on 1"
+                                    "type": "Column",
+                                    "verticalContentAlignment": "Center",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "text": "Wedding Plans"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "size": "Medium",
+                                            "color": "Accent",
+                                            "text": "*Feb 10 at 3:10 PM*"
+                                        }
+                                    ],
+                                    "width": 75
                                 }
-                            ],
-                            "width": 75
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "separator": true,
+                            "height": "stretch",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "height": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "style": "Person",
+                                            "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/margaery.jpg",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "width": "auto"
+                                },
+                                {
+                                    "type": "Column",
+                                    "verticalContentAlignment": "Center",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "text": "UI Changes"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "size": "Medium",
+                                            "color": "Accent",
+                                            "text": "*Feb 10 at 3:10 PM*"
+                                        }
+                                    ],
+                                    "width": 75
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "separator": true,
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "separator": true,
+                            "height": "stretch",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "height": "stretch",
+                                    "items": [
+                                        {
+                                            "type": "Image",
+                                            "horizontalAlignment": "Center",
+                                            "height": "stretch",
+                                            "style": "Person",
+                                            "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/sandor.jpg",
+                                            "size": "Medium"
+                                        }
+                                    ],
+                                    "width": "auto"
+                                },
+                                {
+                                    "type": "Column",
+                                    "verticalContentAlignment": "Center",
+                                    "items": [
+                                      {
+                                        "type": "TextBlock",
+                                        "size": "Medium",
+                                        "weight": "Bolder",
+                                        "text": "1 on 1"
+                                      },
+                                        {
+                                            "type": "TextBlock",
+                                            "size": "Medium",
+                                            "color": "Accent",
+                                            "text": "*Feb 10 at 3:10 PM*"
+                                        }
+                                    ],
+                                    "width": 75
+                                }
+                            ]
                         }
                     ]
                 }
-            ]
-        },
-        {
-            "type": "Container",
-            "separator": true,
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "separator": true,
-                    "height": "stretch",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "height": "stretch",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "horizontalAlignment": "Center",
-                                    "height": "stretch",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/margaery.jpg",
-                                    "size": "Medium"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "verticalContentAlignment": "Center",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "text": "2 � Margaery Tyrell"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Accent",
-                                    "text": "Conference, UI changes"
-                                }
-                            ],
-                            "width": 75
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "Container",
-            "separator": true,
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "separator": true,
-                    "height": "stretch",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "height": "stretch",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "horizontalAlignment": "Center",
-                                    "height": "stretch",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/sandor.jpg",
-                                    "size": "Medium"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "verticalContentAlignment": "Center",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "text": "1 � Sandor Clegane"
-                                },
-                              {
-                                "type": "TextBlock",
-                                "size": "Medium",
-                                "weight": "Bolder",
-                                "color": "Accent",
-                                "text": "1 on 1"
-                              }
-                            ],
-                            "width": 75
-                        }
-                    ]
-                }
-            ]
-        }
             ]
         }
     ],
