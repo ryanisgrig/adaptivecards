@@ -54,7 +54,6 @@
     },
     {
       "type": "Container",
-      "spacing": "Medium",
       "items": [
         {
           "type": "ColumnSet",
@@ -70,7 +69,8 @@
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
+                          "size": "Stretch"
                         }
                       ],
                       "width": "auto"
@@ -80,6 +80,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
+                          "size": "Medium",
                           "text": "Get cat food"
                         }
                       ],
@@ -95,7 +96,8 @@
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
+                          "size": "Stretch"
                         }
                       ],
                       "width": "auto"
@@ -105,6 +107,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
+                          "size": "Medium",
                           "text": "Pick up milk"
                         }
                       ],
@@ -126,7 +129,8 @@
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
+                          "size": "Stretch"
                         }
                       ],
                       "width": "auto"
@@ -136,6 +140,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
+                          "size": "Medium",
                           "text": "Build a new skill"
                         }
                       ],
@@ -151,7 +156,8 @@
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
+                          "size": "Stretch"
                         }
                       ],
                       "width": "auto"
@@ -161,6 +167,7 @@
                       "items": [
                         {
                           "type": "TextBlock",
+                          "size": "Medium",
                           "text": "Pick up wine"
                         }
                       ],
