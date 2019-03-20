@@ -1,6 +1,6 @@
 ﻿{
     "type": "AdaptiveCard",
-    "height": "stretch",
+    "id": "DetailsCard",
     "backgroundImage": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/pointofinterest/assets/background.png",
     "body": [
         {

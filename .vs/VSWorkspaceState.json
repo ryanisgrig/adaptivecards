@@ -6,9 +6,10 @@
     "\\calendar\\assets",
     "\\email",
     "\\pointofinterest",
+    "\\pointofinterest\\assets",
     "\\todo",
-    "\\virtualassistant\\assets"
+    "\\todo\\assets"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\todo\\show.json",
   "PreviewInSolutionExplorer": false
 }
