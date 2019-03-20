@@ -1,6 +1,7 @@
 {
   "type": "AdaptiveCard",
   "id": "EmailCard",
+  "height": "stretch",
   "backgroundImage": "https://github.com/ryanlengel/adaptivecards/blob/master/email/assets/message_background.png?raw=true",
   "body": [
     {
@@ -96,7 +97,7 @@
                           "type": "TextBlock",
                           "horizontalAlignment": "Right",
                           "color": "Light",
-                          "text": "Mon 3/18/2019 2:04 PM"
+                          "text": "Mon 3/18 2:04 PM"
                         }
                       ],
                       "width": "stretch"
