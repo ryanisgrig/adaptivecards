@@ -66,11 +66,12 @@
                   "columns": [
                     {
                       "type": "Column",
+                      "verticalContentAlignment": "Center",
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
-                          "size": "Stretch"
+                          "horizontalAlignment": "Center",
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
                         }
                       ],
                       "width": "auto"
@@ -93,11 +94,12 @@
                   "columns": [
                     {
                       "type": "Column",
+                      "verticalContentAlignment": "Center",
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
-                          "size": "Stretch"
+                          "horizontalAlignment": "Center",
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
                         }
                       ],
                       "width": "auto"
@@ -126,11 +128,12 @@
                   "columns": [
                     {
                       "type": "Column",
+                      "verticalContentAlignment": "Center",
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
-                          "size": "Stretch"
+                          "horizontalAlignment": "Center",
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
                         }
                       ],
                       "width": "auto"
@@ -153,11 +156,12 @@
                   "columns": [
                     {
                       "type": "Column",
+                      "verticalContentAlignment": "Center",
                       "items": [
                         {
                           "type": "Image",
-                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC",
-                          "size": "Stretch"
+                          "horizontalAlignment": "Center",
+                          "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAAmJLR0QAAKqNIzIAAAAHdElNRQfiDAMKKhgxjYNuAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTEyLTAzVDEwOjQyOjI0KzAxOjAw3NT2SAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0xMi0wM1QxMDo0MjoyNCswMTowMK2JTvQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAfklEQVQ4T+2TSwrAIAwFn3odr6CH9wxeR9O80OxaSuiimw4IfpjBhUKUWqsACA06JHEy50TvHTlnrLX0/J5SCvbeGGNAXduT1prVItChm1lgNYo7Fni69hXuWCClZIsI7ljgDX/gDOi7sEUEdyzw6UN6/5n4MRjRs9CgIyJyADPLkD0WLCrjAAAAAElFTkSuQmCC"
                         }
                       ],
                       "width": "auto"
@@ -185,5 +189,5 @@
   ],
   "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
   "version": "1.0",
-  "speak": "from Henrietta Mueller recieved Feb 10 at 3:10 PM titled Project update?"
+  "speak": "You have 4 tasks on your to do list."
 }
