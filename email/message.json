@@ -36,7 +36,7 @@
                                     "size": "Large",
                                     "weight": "Bolder",
                                     "color": "Light",
-                                    "text": "Your email"
+                                    "text": "Project update?"
                                 }
                             ],
                             "width": "stretch"
@@ -69,26 +69,68 @@
                             "verticalContentAlignment": "Center",
                             "items": [
                                 {
-                                    "type": "TextBlock",
-                                    "id": "messageSubject",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Light",
-                                    "text": "Project update?",
-                                    "maxLines": 1
+                                    "type": "ColumnSet",
+                                    "height": "stretch",
+                                    "columns": [
+                                        {
+                                            "type": "Column",
+                                            "horizontalAlignment": "Left",
+                                            "verticalContentAlignment": "Center",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "id": "senderName",
+                                                    "horizontalAlignment": "Left",
+                                                    "size": "Medium",
+                                                    "weight": "Bolder",
+                                                    "color": "Light",
+                                                    "text": "Khal Drogo"
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "verticalContentAlignment": "Center",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "horizontalAlignment": "Right",
+                                                    "size": "Medium",
+                                                    "weight": "Bolder",
+                                                    "color": "Light",
+                                                    "text": "Mon 3/18 2:04 PM"
+                                                }
+                                            ],
+                                            "width": "stretch"
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "ColumnSet",
                                     "columns": [
                                         {
                                             "type": "Column",
+                                            "verticalContentAlignment": "Bottom",
                                             "items": [
                                                 {
                                                     "type": "TextBlock",
-                                                    "id": "senderName",
+                                                    "size": "Medium",
                                                     "weight": "Bolder",
                                                     "color": "Light",
-                                                    "text": "Khal Drogo"
+                                                    "text": "To"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "verticalContentAlignment": "Center",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "style": "Person",
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg"
                                                 }
                                             ],
                                             "width": "auto"
@@ -97,13 +139,45 @@
                                             "type": "Column",
                                             "items": [
                                                 {
-                                                    "type": "TextBlock",
-                                                    "horizontalAlignment": "Right",
-                                                    "color": "Light",
-                                                    "text": "Mon 3/18 2:04 PM"
+                                                    "type": "Image",
+                                                    "style": "Person",
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/oberyn.jpg"
                                                 }
                                             ],
-                                            "width": "stretch"
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                              {
+                                                "type": "Image",
+                                                "style": "Person",
+                                                "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/gregor.jpg"
+                                              }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "style": "Person",
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/cersei.jpg"
+                                                }
+                                            ],
+                                            "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "items": [
+                                                {
+                                                    "type": "Image",
+                                                    "style": "Person",
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/sandor.jpg"
+                                                }
+                                            ],
+                                            "width": "auto"
                                         }
                                     ]
                                 }
@@ -119,80 +193,6 @@
             "spacing": "Medium",
             "items": [
                 {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "verticalContentAlignment": "Bottom",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "To:"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "verticalContentAlignment": "Center",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/oberyn.jpg"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/gregor.jpg"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/cersei.jpg"
-                                }
-                            ],
-                            "width": "auto"
-                        },
-                        {
-                            "type": "Column",
-                            "items": [
-                                {
-                                    "type": "Image",
-                                    "style": "Person",
-                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/sandor.jpg"
-                                }
-                            ],
-                            "width": "auto"
-                        }
-                    ]
-                },
-                {
                     "type": "TextBlock",
                     "id": "messageBody",
                     "color": "Dark",
@@ -204,13 +204,13 @@
         }
     ],
     "actions": [
-      {
-        "type": "Action.OpenUrl",
-        "title": "View",
-        "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGEwMDg4MTVlLTVjYzUtNGRmNS1hYTJkLTI3NjNmM2Q3MDA3ZABGAAAAAABw%2FWbciOIvSZejmvtHK98CBwCa0ISfUgx1RYIZgSZZYh9LAAAAAAEMAACa0ISfUgx1RYIZgSZZYh9LAAAAtDQrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
-      }
+        {
+            "type": "Action.OpenUrl",
+            "title": "View",
+            "url": "https://outlook.office365.com/owa/?ItemID=AAMkAGEwMDg4MTVlLTVjYzUtNGRmNS1hYTJkLTI3NjNmM2Q3MDA3ZABGAAAAAABw%2FWbciOIvSZejmvtHK98CBwCa0ISfUgx1RYIZgSZZYh9LAAAAAAEMAACa0ISfUgx1RYIZgSZZYh9LAAAAtDQrAAA%3D&exvsurl=1&viewmodel=ReadMessageItem"
+        }
     ],
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
     "version": "1.0",
-    "speak": "from Henrietta Mueller recieved Feb 10 at 3:10 PM titled Project update?"
+    "speak": "{Speak}"
 }
