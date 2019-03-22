@@ -112,163 +112,232 @@
         },
         {
             "type": "Container",
-            "spacing": "Large",
+            "spacing": "ExtraLarge",
             "items": [
                 {
-                    "type": "ColumnSet",
-                    "separator": true,
-                    "columns": [
+                    "type": "Container",
+                    "style": "emphasis",
+                    "items": [
                         {
-                            "type": "Column",
-                            "horizontalAlignment": "Center",
-                            "style": "emphasis",
-                            "items": [
-                                {
-                                    "type": "TextBlock",
-                                    "horizontalAlignment": "Center",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "height": "stretch",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "7:30"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "horizontalAlignment": "Center",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "height": "stretch",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "8:15",
-                                    "isSubtle": true
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "horizontalAlignment": "Center",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "height": "stretch",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "9:00"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "horizontalAlignment": "Center",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "height": "stretch",
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Attention",
-                                    "text": "10:00"
-                                },
-                              {
-                                "type": "TextBlock",
-                                "horizontalAlignment": "Center",
-                                "spacing": "Medium",
-                                "separator": true,
-                                "height": "stretch",
-                                "size": "Medium",
-                                "weight": "Bolder",
-                                "color": "Attention",
-                                "text": "10:00",
-                                "isSubtle": true
-                              }
-                            ],
-                            "width": 20
-                        },
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "text": "MONDAY, MARCH 25"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
                         {
-                            "type": "Column",
-                            "spacing": "Small",
-                            "style": "emphasis",
-                            "items": [
+                            "type": "ColumnSet",
+                            "columns": [
                                 {
-                                    "type": "TextBlock",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "GM Daily Status"
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "height": "stretch",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "7:30"
+                                        }
+                                    ],
+                                    "width": 20
                                 },
                                 {
-                                    "type": "TextBlock",
-                                    "spacing": "None",
-                                    "color": "Accent",
-                                    "text": "Teams"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "Briefing for exec review",
-                                    "isSubtle": true
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "None",
-                                    "color": "Accent",
-                                    "text": "Kitchenette",
-                                    "isSubtle": true
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "Lili Staff Meeting"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "None",
-                                    "color": "Accent",
-                                    "text": "CITY CENTER 2228"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "Weekly Team Meeting"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "None",
-                                    "color": "Accent",
-                                    "text": "Kitchenette"
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "Medium",
-                                    "separator": true,
-                                    "size": "Medium",
-                                    "weight": "Bolder",
-                                    "color": "Dark",
-                                    "text": "Monthly Telecom Review",
-                                    "isSubtle": true
-                                },
-                                {
-                                    "type": "TextBlock",
-                                    "spacing": "None",
-                                    "color": "Accent",
-                                    "text": "Kitchenette",
-                                    "isSubtle": true
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "GM Daily Status"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "None",
+                                            "color": "Accent",
+                                            "text": "Teams"
+                                        }
+                                    ],
+                                    "width": 80
                                 }
-                            ],
-                            "width": 80
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "height": "stretch",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "8:15",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "width": 20
+                                },
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "Briefing for exec review",
+                                            "isSubtle": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "None",
+                                            "color": "Accent",
+                                            "text": "Kitchenette",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "width": 80
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "style": "emphasis",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "text": "TUESDAY, MARCH 26"
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "height": "stretch",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "9:00"
+                                        }
+                                    ],
+                                    "width": 20
+                                },
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                  "items": [
+                                    {
+                                      "type": "TextBlock",
+                                      "spacing": "Medium",
+                                      "separator": true,
+                                      "size": "Medium",
+                                      "weight": "Bolder",
+                                      "color": "Dark",
+                                      "text": "Lili Staff Meeting"
+                                    },
+                                    {
+                                      "type": "TextBlock",
+                                      "spacing": "None",
+                                      "color": "Accent",
+                                      "text": "CITY CENTER 2228"
+                                    }
+                                  ],
+                                    "width": 80
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "ColumnSet",
+                            "columns": [
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "height": "stretch",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Attention",
+                                            "text": "10:00"
+                                        }
+                                    ],
+                                    "width": 20
+                                },
+                                {
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "Weekly Team Meeting"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "None",
+                                            "color": "Accent",
+                                            "text": "Kitchenette"
+                                        }
+                                    ],
+                                    "width": 80
+                                }
+                            ]
                         }
                     ]
                 }
