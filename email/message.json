@@ -59,7 +59,8 @@
                                     "id": "senderAvatar",
                                     "style": "Person",
                                     "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/khal.jpg",
-                                    "size": "Medium"
+                                    "width": "80px",
+                                    "height": "80px"
                                 }
                             ],
                             "width": "auto"
@@ -130,54 +131,69 @@
                                                 {
                                                     "type": "Image",
                                                     "style": "Person",
-                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg"
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/robb.jpg",
+                                                    "width": "50px",
+                                                    "height": "50px"
                                                 }
                                             ],
                                             "width": "auto"
                                         },
                                         {
                                             "type": "Column",
+                                            "verticalContentAlignment": "Center",
                                             "items": [
                                                 {
                                                     "type": "Image",
                                                     "style": "Person",
-                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/oberyn.jpg"
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/oberyn.jpg",
+                                                    "width": "50px",
+                                                    "height": "50px"
                                                 }
                                             ],
                                             "width": "auto"
                                         },
                                         {
                                             "type": "Column",
-                                            "items": [
-                                              {
-                                                "type": "Image",
-                                                "style": "Person",
-                                                "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/gregor.jpg"
-                                              }
-                                            ],
-                                            "width": "auto"
-                                        },
-                                        {
-                                            "type": "Column",
+                                            "verticalContentAlignment": "Center",
                                             "items": [
                                                 {
                                                     "type": "Image",
                                                     "style": "Person",
-                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/cersei.jpg"
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/gregor.jpg",
+                                                    "width": "50px",
+                                                    "height": "50px"
                                                 }
                                             ],
                                             "width": "auto"
                                         },
                                         {
                                             "type": "Column",
+                                            "verticalContentAlignment": "Center",
                                             "items": [
                                                 {
                                                     "type": "Image",
                                                     "style": "Person",
-                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/sandor.jpg"
+                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/cersei.jpg",
+                                                    "width": "50px",
+                                                    "height": "50px"
                                                 }
                                             ],
                                             "width": "auto"
+                                        },
+                                        {
+                                            "type": "Column",
+                                            "verticalContentAlignment": "Center",
+                                            "items": [
+                                                {
+                                                    "type": "TextBlock",
+                                                    "horizontalAlignment": "Center",
+                                                    "size": "Medium",
+                                                    "weight": "Bolder",
+                                                    "color": "Light",
+                                                    "text": "\\+ 12"
+                                                }
+                                            ],
+                                            "width": "stretch"
                                         }
                                     ]
                                 }
@@ -192,14 +208,14 @@
             "type": "Container",
             "spacing": "Medium",
             "items": [
-                {
-                    "type": "TextBlock",
-                    "id": "messageBody",
-                    "color": "Dark",
-                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique nunc tellus, in tempus mi placerat lobortis. Proin volutpat elit et leo pretium sollicitudin. Aliquam pellentesque interdum augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec congue feugiat dapibus. Maecenas fringilla pulvinar lorem, sed tempus massa ultrices sit amet. Cras tincidunt mi nibh, vitae laoreet mauris varius ut. Suspendisse fermentum neque ut consectetur interdum. Sed consequat lacus ultricies risus fermentum, at cursus tellus ornare. Fusce non euismod mauris, nec dictum mi. Proin iaculis, arcu rhoncus suscipit eleifend, lacus nibh congue purus, at malesuada lectus libero nec mauris. Sed laoreet pharetra aliquet. Cras pretium nisi quis varius imperdiet. Pellentesque aliquet sagittis ultrices.\n\nDonec dignissim arcu id nisi fermentum, vel lacinia nibh commodo. Nulla quam nisl, bibendum et ultrices non, consequat sit amet arcu. Pellentesque vulputate semper convallis. Mauris facilisis iaculis felis, nec placerat magna semper eget. Nam rutrum placerat magna ac scelerisque. Duis non molestie turpis. Duis vehicula tortor velit, non tincidunt nulla facilisis id. Nullam et suscipit dolor, ac ullamcorper nulla.",
-                    "wrap": true,
-                    "maxLines": 5
-                }
+              {
+                "type": "TextBlock",
+                "id": "messageBody",
+                "color": "Dark",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tristique nunc tellus, in tempus mi placerat lobortis. Proin volutpat elit et leo pretium sollicitudin. Aliquam pellentesque interdum augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec congue feugiat dapibus. Maecenas fringilla pulvinar lorem, sed tempus massa ultrices sit amet. Cras tincidunt mi nibh, vitae laoreet mauris varius ut. Suspendisse fermentum neque ut consectetur interdum. Sed consequat lacus ultricies risus fermentum, at cursus tellus ornare. Fusce non euismod mauris, nec dictum mi. Proin iaculis, arcu rhoncus suscipit eleifend, lacus nibh congue purus, at malesuada lectus libero nec mauris. Sed laoreet pharetra aliquet. Cras pretium nisi quis varius imperdiet. Pellentesque aliquet sagittis ultrices.\n\nDonec dignissim arcu id nisi fermentum, vel lacinia nibh commodo. Nulla quam nisl, bibendum et ultrices non, consequat sit amet arcu. Pellentesque vulputate semper convallis. Mauris facilisis iaculis felis, nec placerat magna semper eget. Nam rutrum placerat magna ac scelerisque. Duis non molestie turpis. Duis vehicula tortor velit, non tincidunt nulla facilisis id. Nullam et suscipit dolor, ac ullamcorper nulla.",
+                "wrap": true,
+                "maxLines": 5
+              }
             ]
         }
     ],
