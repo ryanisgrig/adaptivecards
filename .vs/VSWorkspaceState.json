@@ -5,11 +5,12 @@
     "\\calendar",
     "\\calendar\\assets",
     "\\email",
+    "\\email\\assets",
     "\\pointofinterest",
     "\\pointofinterest\\assets",
-    "\\todo",
-    "\\todo\\assets"
+    "\\virtualassistant",
+    "\\virtualassistant\\assets"
   ],
-  "SelectedNode": "\\email\\message.json",
+  "SelectedNode": "\\email\\overview.json",
   "PreviewInSolutionExplorer": false
 }
