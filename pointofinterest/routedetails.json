@@ -118,7 +118,7 @@
                                     "horizontalAlignment": "Center",
                                     "size": "Medium",
                                     "color": "Dark",
-                                    "text": "15 min"
+                                    "text": "{TravelTime}"
                                 }
                             ],
                             "width": 20
@@ -130,13 +130,13 @@
                                 {
                                     "type": "TextBlock",
                                     "horizontalAlignment": "Left",
-                                    "text": "Less than a minute delay"
+                                    "text": "{DelayStatus}"
                                 },
                                 {
                                     "type": "TextBlock",
                                     "horizontalAlignment": "Left",
                                     "color": "Dark",
-                                    "text": "**ETA** 3:50 PM"
+                                    "text": "**ETA** {ETA}"
                                 }
                             ],
                             "width": 60
@@ -151,7 +151,7 @@
                                     "horizontalAlignment": "Center",
                                     "size": "Medium",
                                     "color": "Dark",
-                                    "text": "5.9 mi"
+                                    "text": "{Distance}"
                                 }
                             ],
                             "width": 20
