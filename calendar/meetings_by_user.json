@@ -1,7 +1,7 @@
 {
     "type": "AdaptiveCard",
-    "id":"MeetingsByUserCard",
-    "speak": "{Speak}",
+    "id": "MeetingsFromUserCard",
+    "height": "stretch",
     "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAACeCAYAAACvg+F+AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAxOTowMzoxMyAxOTo0Mjo0OBCBEeIAAAG8SURBVHhe7dJBDQAgEMCwA/+egQcmlrSfGdg6z0DE/oUEw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phCZm52U4FOCAVGHQAAAAASUVORK5CYII=",
     "body": [
         {
@@ -16,6 +16,7 @@
                             "items": [
                                 {
                                     "type": "ColumnSet",
+                                    "height": "stretch",
                                     "columns": [
                                         {
                                             "type": "Column",
@@ -67,32 +68,44 @@
                                                         {
                                                             "type": "Column",
                                                             "height": "stretch",
+                                                            "verticalContentAlignment": "Center",
                                                             "items": [
                                                                 {
-                                                                    "type": "TextBlock",
-                                                                    "horizontalAlignment": "Right",
-                                                                    "height": "stretch",
-                                                                    "size": "Medium",
-                                                                    "color": "Light",
-                                                                    "text": "3/10"
+                                                                    "type": "Image",
+                                                                    "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5z%0D%0APSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgZW5h%0D%0AYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4K%0D%0ACTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik02LjksOGw2LjEsNi4xTDExLDE1LjlMMy4xLDhMMTEs%0D%0AMC4xbDEuOSwxLjlMNi45LDh6Ii8+CjwvZz4KPC9zdmc+Cg==",
+                                                                    "height": "20px"
                                                                 }
                                                             ],
                                                             "width": "auto"
                                                         },
                                                         {
                                                             "type": "Column",
-                                                            "height": "stretch",
+                                                            "spacing": "Small",
+                                                            "verticalContentAlignment": "Center",
                                                             "items": [
                                                                 {
                                                                     "type": "TextBlock",
-                                                                    "height": "stretch",
+                                                                    "horizontalAlignment": "Center",
                                                                     "size": "Medium",
-                                                                    "weight": "Bolder",
                                                                     "color": "Light",
-                                                                    "text": "Meetings"
+                                                                    "text": "**1-3** of 4044"
                                                                 }
                                                             ],
-                                                            "width": "stretch"
+                                                            "width": "auto"
+                                                        },
+                                                        {
+                                                            "type": "Column",
+                                                            "horizontalAlignment": "Center",
+                                                            "spacing": "Small",
+                                                            "verticalContentAlignment": "Center",
+                                                            "items": [
+                                                                {
+                                                                    "type": "Image",
+                                                                    "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFk%0D%0Ab2JlIElsbHVzdHJhdG9yIDIzLjAuMiwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246%0D%0AIDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5z%0D%0APSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMu%0D%0Ab3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAxNiAxNiIgZW5h%0D%0AYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8Zz4K%0D%0ACTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMi45LDhMNSwxNS45bC0xLjktMS45TDkuMSw4TDMu%0D%0AMSwxLjlMNSwwLjFMMTIuOSw4eiIvPgo8L2c+Cjwvc3ZnPgo=",
+                                                                    "height": "20px"
+                                                                }
+                                                            ],
+                                                            "width": "auto"
                                                         }
                                                     ]
                                                 }
@@ -192,51 +205,51 @@
                     "items": [
                         {
                             "type": "ColumnSet",
-                          "columns": [
-                            {
-                              "type": "Column",
-                              "style": "emphasis",
-                              "items": [
+                            "columns": [
                                 {
-                                  "type": "TextBlock",
-                                  "horizontalAlignment": "Center",
-                                  "spacing": "Medium",
-                                  "separator": true,
-                                  "height": "stretch",
-                                  "size": "Medium",
-                                  "weight": "Bolder",
-                                  "color": "Dark",
-                                  "text": "8:15",
-                                  "isSubtle": true
-                                }
-                              ],
-                              "width": 20
-                            },
-                            {
-                              "type": "Column",
-                              "style": "emphasis",
-                              "items": [
-                                {
-                                  "type": "TextBlock",
-                                  "spacing": "Medium",
-                                  "separator": true,
-                                  "size": "Medium",
-                                  "weight": "Bolder",
-                                  "color": "Dark",
-                                  "text": "Briefing for exec review",
-                                  "isSubtle": true
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "horizontalAlignment": "Center",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "height": "stretch",
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "8:15",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "width": 20
                                 },
                                 {
-                                  "type": "TextBlock",
-                                  "spacing": "None",
-                                  "color": "Accent",
-                                  "text": "Kitchenette",
-                                  "isSubtle": true
+                                    "type": "Column",
+                                    "style": "emphasis",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "Medium",
+                                            "separator": true,
+                                            "size": "Medium",
+                                            "weight": "Bolder",
+                                            "color": "Dark",
+                                            "text": "Briefing for exec review",
+                                            "isSubtle": true
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "spacing": "None",
+                                            "color": "Accent",
+                                            "text": "Kitchenette",
+                                            "isSubtle": true
+                                        }
+                                    ],
+                                    "width": 80
                                 }
-                              ],
-                              "width": 80
-                            }
-                          ]
+                            ]
                         }
                     ]
                 },
@@ -320,7 +333,7 @@
                                             "height": "stretch",
                                             "size": "Medium",
                                             "weight": "Bolder",
-                                            "color": "Attention",
+                                            "color": "Dark",
                                             "text": "10:00"
                                         }
                                     ],
@@ -339,12 +352,12 @@
                                             "color": "Dark",
                                             "text": "Weekly Team Meeting"
                                         },
-                                        {
-                                            "type": "TextBlock",
-                                            "spacing": "None",
-                                            "color": "Accent",
-                                            "text": "Kitchenette"
-                                        }
+                                      {
+                                        "type": "TextBlock",
+                                        "spacing": "None",
+                                        "color": "Accent",
+                                        "text": "Kitchenette"
+                                      }
                                     ],
                                     "width": 80
                                 }
