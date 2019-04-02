@@ -8,9 +8,9 @@
     "\\email\\assets",
     "\\pointofinterest",
     "\\pointofinterest\\assets",
-    "\\virtualassistant",
-    "\\virtualassistant\\assets"
+    "\\todo",
+    "\\virtualassistant"
   ],
-  "SelectedNode": "\\virtualassistant\\assets\\white_background.png",
+  "SelectedNode": "\\calendar\\meetings_by_user.json",
   "PreviewInSolutionExplorer": false
 }
