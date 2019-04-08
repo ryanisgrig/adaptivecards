@@ -1,7 +1,6 @@
 {
     "type": "AdaptiveCard",
     "id": "MeetingsFromUserCard",
-    "height": "stretch",
     "backgroundImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKwAAACeCAYAAACvg+F+AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAxOTowMzoxMyAxOTo0Mjo0OBCBEeIAAAG8SURBVHhe7dJBDQAgEMCwA/+egQcmlrSfGdg6z0DE/oUEw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phSTEsKYYlxbCkGJYUw5JiWFIMS4phCZm52U4FOCAVGHQAAAAASUVORK5CYII=",
     "body": [
         {
@@ -46,14 +45,14 @@
                                                         {
                                                             "type": "Column",
                                                             "height": "stretch",
+                                                            "verticalContentAlignment": "Center",
                                                             "items": [
                                                                 {
                                                                     "type": "TextBlock",
-                                                                    "height": "stretch",
                                                                     "size": "Large",
                                                                     "weight": "Bolder",
                                                                     "color": "Light",
-                                                                    "text": "Meetings from Myrcella Baratheon",
+                                                                    "text": "Meetings about the weekly design review",
                                                                     "wrap": true
                                                                 }
                                                             ],
@@ -111,20 +110,6 @@
                                                 }
                                             ],
                                             "width": 60
-                                        },
-                                        {
-                                            "type": "Column",
-                                            "height": "stretch",
-                                            "items": [
-                                                {
-                                                    "type": "Image",
-                                                    "horizontalAlignment": "Center",
-                                                    "style": "Person",
-                                                    "url": "https://raw.githubusercontent.com/ryanlengel/adaptivecards/master/assets/heads/myrcella.jpg",
-                                                    "size": "Medium"
-                                                }
-                                            ],
-                                            "width": 30
                                         }
                                     ]
                                 }
@@ -183,63 +168,6 @@
                                 {
                                     "type": "Column",
                                     "style": "emphasis",
-                                  "items": [
-                                    {
-                                      "type": "TextBlock",
-                                      "spacing": "Medium",
-                                      "separator": true,
-                                      "size": "Medium",
-                                      "weight": "Bolder",
-                                      "color": "Dark",
-                                      "text": "GM Daily Status"
-                                    },
-                                    {
-                                      "type": "TextBlock",
-                                      "spacing": "None",
-                                      "color": "Accent",
-                                      "text": "Teams"
-                                    }
-                                  ],
-                                    "width": 80
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "Container",
-                    "items": [
-                        {
-                            "type": "ColumnSet",
-                            "columns": [
-                                {
-                                    "type": "Column",
-                                    "style": "emphasis",
-                                    "items": [
-                                        {
-                                            "type": "TextBlock",
-                                            "horizontalAlignment": "Center",
-                                            "spacing": "Medium",
-                                            "separator": true,
-                                            "height": "stretch",
-                                            "size": "Medium",
-                                            "weight": "Bolder",
-                                            "color": "Dark",
-                                            "text": "2:00",
-                                            "isSubtle": true
-                                        },
-                                        {
-                                            "type": "TextBlock",
-                                            "horizontalAlignment": "Center",
-                                            "spacing": "Small",
-                                            "text": "30m"
-                                        }
-                                    ],
-                                    "width": 20
-                                },
-                                {
-                                    "type": "Column",
-                                    "style": "emphasis",
                                     "items": [
                                         {
                                             "type": "TextBlock",
@@ -248,15 +176,15 @@
                                             "size": "Medium",
                                             "weight": "Bolder",
                                             "color": "Dark",
-                                            "text": "Briefing for exec review",
-                                            "isSubtle": true
+                                            "text": "GM Daily Status",
+                                            "wrap": true,
+                                            "maxLines": 2
                                         },
                                         {
                                             "type": "TextBlock",
                                             "spacing": "None",
                                             "color": "Accent",
-                                            "text": "Kitchenette",
-                                            "isSubtle": true
+                                            "text": "Teams"
                                         }
                                     ],
                                     "width": 80
@@ -265,6 +193,67 @@
                         }
                     ]
                 },
+              {
+                "type": "Container",
+                "items": [
+                  {
+                    "type": "ColumnSet",
+                    "columns": [
+                      {
+                        "type": "Column",
+                        "style": "emphasis",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "spacing": "Medium",
+                            "separator": true,
+                            "height": "stretch",
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "text": "2:00",
+                            "isSubtle": true
+                          },
+                          {
+                            "type": "TextBlock",
+                            "horizontalAlignment": "Center",
+                            "spacing": "Small",
+                            "text": "30m"
+                          }
+                        ],
+                        "width": 20
+                      },
+                      {
+                        "type": "Column",
+                        "style": "emphasis",
+                        "items": [
+                          {
+                            "type": "TextBlock",
+                            "spacing": "Medium",
+                            "separator": true,
+                            "size": "Medium",
+                            "weight": "Bolder",
+                            "color": "Dark",
+                            "text": "Briefing for exec review",
+                            "isSubtle": true,
+                            "wrap": true,
+                            "maxLines": 2
+                          },
+                          {
+                            "type": "TextBlock",
+                            "spacing": "None",
+                            "color": "Accent",
+                            "text": "Kitchenette",
+                            "isSubtle": true
+                          }
+                        ],
+                        "width": 80
+                      }
+                    ]
+                  }
+                ]
+              },
                 {
                     "type": "Container",
                     "style": "emphasis",
@@ -318,7 +307,9 @@
                                             "size": "Medium",
                                             "weight": "Bolder",
                                             "color": "Dark",
-                                            "text": "Weekly Team Meeting"
+                                            "text": "Weekly Team Meeting",
+                                            "wrap": true,
+                                            "maxLines": 2
                                         },
                                         {
                                             "type": "TextBlock",
